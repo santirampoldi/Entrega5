@@ -1,59 +1,88 @@
 body {
-    max-width: 100%;
-    overflow-x: hidden;
-    font-family: 'Lustria', serif;
-    background-color: #021A32;
-    color: white;
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: 'Lustria', serif;
+  background-color: #021A32;
+  color: white;
 }
 
-header{
-    margin: 20px 0 20px 0;    
+header {
+  margin: 15px 0 15px 0;
 }
 
-.container-logo a{
-    color: white;
-    text-decoration: none;
+.container-logo a {
+  color: white;
+  text-decoration: none;
 }
 
-.logo-usuario{
-    width: 40px;
-    height: auto;
+.logo-usuario {
+  width: 40px;
+  height: auto;
 }
 
-.logo-pagina{
-    width: 50px;
-    height: auto;
+.logo-pagina {
+  width: 50px;
+  height: auto;
 }
 
-.sesion{
-    margin-left: 45px;
-    font-size: 20px;
+.sesion {
+  margin-left: 45px;
+  font-size: 20px;
 }
 
-.configuracion-titulo{
-    margin-top: 20px;
+.configuracion-titulo {
+  margin-top: 20px;
 }
 
-.seccion-principal{
-    margin-left: 35px;
+.seccion-principal {
+  margin-left: 35px;
 }
 
-.filtros-container{
-    height: 550px;
-    background-color: #133B61;
-    margin: 0 18px 0 10px;
+.filtros-container {
+  height: 550px;
+  background-color: #133B61;
+  margin: 0 18px 0 10px;
 }
 
-.ultimos-jugados, .recomendados{
-    background-color: #133B61;
-    height: 100px;
-    margin-bottom: 20px;
+.ultimos-jugados, .recomendados {
+  background-color: #133B61;
+  height: 100px;
+  margin-bottom: 20px;
 }
 
-.juegos{
-    background-color: #133B61;
-    height: 290px;
-    width: 224px;
-    margin: 20px 40px 20px 0;
+.juegos {
+  background-color: #133B61;
+  height: 290px;
+  width: 224px;
+  margin: 20px 40px 20px 0;
 }
 
+.juegos h3, .card-title {
+  font-weight: 550;
+  font-size: 1.5em;
+}
+
+.sibling-fade {
+  width: 94.5%;
+  visibility: hidden;
+}
+/* Prevents :hover from triggering in the gaps between items */
+
+.sibling-fade > * {
+  visibility: visible;
+}
+
+.sibling-fade > * {
+  transition: opacity 150ms linear 100ms, transform 150ms ease-in-out 100ms;
+}
+
+/* .sibling-fade:hover > * {
+opacity: 0.4;
+transform: scale(0.9);
+} */
+
+.sibling-fade > *:hover {
+  opacity: 1;
+  transform: scale(1.1);
+  transition-delay: 0ms, 0ms;
+}
