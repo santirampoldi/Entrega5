@@ -48,11 +48,9 @@ header {
   margin: 0 18px 0 10px;
 }
 
-/*
-.filtros-container row {
-   margin: 0 18px 0 10px; 
+.filtros-container{
+    font-size: 1.2em;
 }
-*/
 
 .ultimos-jugados, .recomendados {
   background-color: #133B61;
@@ -95,4 +93,19 @@ transform: scale(0.9);
   opacity: 1;
   transform: scale(1.1);
   transition-delay: 0ms, 0ms;
+}
+
+.card{
+    background-color: #133B61;
+    border: none;
+}
+
+.filtros-container .card button.btn-link{
+    color: white;
+    text-decoration: none;
+}
+
+.filtros-container .card button.btn-link:hover{
+    color: white;
+    text-decoration: none;
 }
