@@ -1,5 +1,18 @@
 document.addEventListener("DOMContentLoaded", function(event) {
 
+  $('.filtros-container .card .btn-link').on('click', function (e) {
+    var btnAcordion = $(this).children('span.fa');
+    if(btnAcordion.hasClass('fa-plus')){
+      btnAcordion.removeClass('fa-plus');
+      btnAcordion.addClass('fa-minus');
+    }
+    else{
+      btnAcordion.addClass('fa-plus');
+      btnAcordion.removeClass('fa-minus');
+    }
+
+  });
+
 
 });
 
