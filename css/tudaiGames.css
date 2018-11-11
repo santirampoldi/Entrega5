@@ -58,6 +58,10 @@ header {
   margin-bottom: 20px;
 }
 
+.checked {
+  color: yellow;
+}
+
 .juegos {
   background-color: #133B61;
   height: 290px;
@@ -68,6 +72,11 @@ header {
 .juegos h3, .card-title {
   font-weight: 550;
   font-size: 1.5em;
+}
+
+.card-text {
+  margin-right: 10px;
+  width: 105%;
 }
 
 .sibling-fade {
