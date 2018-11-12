@@ -1,32 +1,31 @@
-document.addEventListener("DOMContentLoaded", function(event) {
+document.addEventListener("DOMContentLoaded", function (event) {
 
   $('.filtros-container .card .btn-link').on('click', function (e) {
     var btnAcordion = $(this).children('span.fa');
-    if(btnAcordion.hasClass('fa-plus')){
+    if (btnAcordion.hasClass('fa-plus')) {
       btnAcordion.removeClass('fa-plus');
       btnAcordion.addClass('fa-minus');
     }
-    else{
+    else {
       btnAcordion.addClass('fa-plus');
       btnAcordion.removeClass('fa-minus');
     }
 
   });
-
-
+  
 });
 
 
 function getDatos() {
   fetch('https://jsonplaceholder.typicode.com/comments')
-  .then(response => response.json())
-  .then(function(json) {
-    mostrarDatos(json);
-  });
+    .then(response => response.json())
+    .then(function (json) {
+      mostrarDatos(json);
+    });
 }
 
 function mostrarDatos(json) {
-  let html ='';
+  let html = '';
   for (var i = 0; i < 10; i++) {
     console.log(json[i]);
     html += "<tr id=" + json[i].id + ">"

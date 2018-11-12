@@ -15,6 +15,21 @@ header {
   text-decoration: none;
 }
 
+.container-logo {
+  margin-left: 13.7%;
+}
+
+.container-logo label {
+  position: absolute;
+  top: 15%;
+  left: 29%;
+}
+
+.logo-pagina {
+  width: 50px;
+  height: auto;
+}
+
 .logo-usuario {
   width: 40px;
   height: auto;
@@ -24,13 +39,9 @@ header {
   cursor: pointer;
 }
 
-.logo-pagina {
-  width: 50px;
-  height: auto;
-}
-
 .sesion {
-  margin-left: 45px;
+  float: right;
+  margin-right: 8.5%;
   font-size: 20px;
 }
 
@@ -46,10 +57,11 @@ header {
   height: 550px;
   background-color: #133B61;
   margin: 0 18px 0 10px;
+  font-size: 1.2em;
 }
 
-.filtros-container{
-    font-size: 1.2em;
+.filtros-usados, .filtrar-por {
+  height: 20%;
 }
 
 .ultimos-jugados, .recomendados {
@@ -77,6 +89,10 @@ header {
 .card-text {
   margin-right: 10px;
   width: 105%;
+}
+
+.last-row {
+  width: 110%;
 }
 
 .sibling-fade {
@@ -118,3 +134,4 @@ transform: scale(0.9);
     color: white;
     text-decoration: none;
 }
+
