@@ -12,8 +12,22 @@ document.addEventListener("DOMContentLoaded", function (event) {
     }
 
   });
-  
+
+  createSticky($('header'), 8);
+  createSticky($('.filtros-container'), 80);
+
 });
+
+function createSticky(sticky, distancia) {
+	
+	if (typeof sticky !== "undefined") {
+		var	pos = sticky.offset().top,
+    win = $(window);			
+		win.on("scroll", function() {
+    		win.scrollTop() >= (pos - distancia) ? sticky.addClass("fixed") : sticky.removeClass("fixed");      
+		});			
+  }
+};
 
 
 function getDatos() {

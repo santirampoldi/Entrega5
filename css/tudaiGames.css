@@ -10,6 +10,19 @@ header {
   margin: 15px 0 15px 0;
 }
 
+header.fixed{
+  position: fixed;
+  top: -15px;
+  width: 100%;
+  z-index:10;  
+  background-color: #021A32;
+  height: 60px  ;
+}
+
+header.fixed > .row{
+  margin-top: 3px;
+}
+
 .container-logo a {
   color: white;
   text-decoration: none;
@@ -56,6 +69,17 @@ header {
 .filtros-container {
   height: 550px;
   background-color: #133B61;
+  margin: 0 18px 0 10px;
+  font-size: 1.2em;
+}
+
+.filtros-container.fixed{
+  position: fixed;
+  top: 70px;
+  z-index:10;  
+  background-color: #133B61;
+  height: 550px;
+  width: 165px;
   margin: 0 18px 0 10px;
   font-size: 1.2em;
 }
@@ -136,4 +160,8 @@ header {
 
 p.title-ultimos-jugados, p.title-juegos-recomendados{
   margin-bottom: -15px;
+}
+
+.filtros-container .card-body{
+  padding: 0px;
 }
