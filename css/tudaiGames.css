@@ -16,7 +16,7 @@ header.fixed{
   width: 100%;
   z-index:10;  
   background-color: #021A32;
-  height: 60px  ;
+  height: 65px;
 }
 
 header.fixed > .row{
