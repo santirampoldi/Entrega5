@@ -133,3 +133,7 @@ header {
   text-decoration: none;
   color: inherit;
 }
+
+p.title-ultimos-jugados, p.title-juegos-recomendados{
+  margin-bottom: -15px;
+}
