@@ -85,11 +85,11 @@ header.fixed > .row{
 }
 
 .filter-body {
-  width: 70%;
+  width: 76%;
 }
 
 .filtrar-por {
-  height: 20%;
+  height: 35%;
 }
 
 .ultimos-jugados, .recomendados {
@@ -236,3 +236,19 @@ p.title-ultimos-jugados, p.title-juegos-recomendados{
   padding: .1rem .5rem;
   border-radius: .7rem;
 }
+
+.filtros-orden{
+  width: 100%;
+  font-size: .7em;
+}
+
+.filtro-avanzado{
+  height: 50%;
+}
+
+.filter-body .filter-title {
+  height: 40px;
+}
+/* .filtro-avanzado .filter-body{
+  margin-top: -3em;
+} */

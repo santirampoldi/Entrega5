@@ -10,13 +10,11 @@ document.addEventListener("DOMContentLoaded", function (event) {
       btnAcordion.addClass('fa-plus');
       btnAcordion.removeClass('fa-minus');
     }
-
   });
 
   createSticky($('header'), 8);
   createSticky($('.filtros-container'), 80);
   createSticky($('.filtros-utilizados'),80);
-
 });
 
 function createSticky(sticky, distancia) {
