@@ -15,6 +15,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
   createSticky($('header'), 8);
   createSticky($('.filtros-container'), 80);
+  createSticky($('.filtros-utilizados'),80);
 
 });
 

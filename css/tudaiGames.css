@@ -16,7 +16,7 @@ header.fixed{
   width: 100%;
   z-index:10;  
   background-color: #021A32;
-  height: 65px;
+  height: 70px;
 }
 
 header.fixed > .row{
@@ -103,6 +103,17 @@ header.fixed > .row{
   height: 30px;
   margin-bottom: 20px;
   padding: 4px 2px 2px 15px;
+}
+
+.filtros-utilizados.fixed {
+  position: fixed;
+  top: 70px;
+  z-index:10;  
+  background-color: #133B61;
+  height: 30px;
+  margin-bottom: 20px;
+  padding: 4px 2px 2px 15px;
+  width: 75.33%;
 }
 
 .checked {
