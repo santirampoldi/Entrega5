@@ -88,7 +88,7 @@ header.fixed > .row{
   width: 70%;
 }
 
-.filtros-usados, .filtrar-por {
+.filtrar-por {
   height: 20%;
 }
 
@@ -96,6 +96,13 @@ header.fixed > .row{
   background-color: #133B61;
   height: 100px;
   margin-bottom: 20px;
+}
+
+.filtros-utilizados {
+  background-color: #133B61;
+  height: 30px;
+  margin-bottom: 20px;
+  padding: 4px 2px 2px 15px;
 }
 
 .checked {
@@ -195,6 +202,26 @@ p.title-ultimos-jugados, p.title-juegos-recomendados{
 }
 
 .card-body{
-  padding: 0.4rem;
+  padding: .4rem;
   text-align: center;
+}
+
+.remove-filtro{
+  opacity: 1;
+  line-height: 0rem;
+  background-color: #d47373 !important;
+  color: white;
+  padding: 0.6rem;
+  width: .2rem;
+  height: .2rem;
+  border-radius: 100%;
+  display: inline-flex;
+  justify-content: center;
+  margin: 0 0 0 .7rem;
+  cursor: pointer;
+}
+
+.alert{
+  padding: .1rem .5rem;
+  border-radius: .7rem;
 }
