@@ -10,6 +10,11 @@ header {
   margin: 15px 0 15px 0;
 }
 
+.container {
+  max-width: 87%;
+  padding: 0;
+}
+
 header.fixed{
   position: fixed;
   top: -15px;
@@ -180,4 +185,65 @@ p.title-ultimos-jugados, p.title-juegos-recomendados{
 
 a .card-img-top {
  height: 116px; 
+}
+
+#nav-mensual-tab, #nav-semanal-tab {
+    width: 50%;
+}
+
+.nav-tabs {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #021A32;
+    border-color: #133B61;
+}
+
+.nav-tabs .nav-link:hover {
+    color: #B7B7B7;
+    border-color: #0E1A36;
+}
+
+.list-group-item, .nav-tabs .nav-link.active {
+    background-color: #0A152F;
+    border-color: #0E1A36;
+}
+
+.nav-tabs .nav-link.active {
+    color: #B7B7B7;
+}
+
+.puntuacioning {
+    overflow-y: scroll;
+    height: 304px;
+}
+
+.title, .puntuacion {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.puntuacion {
+    color: #B7B7B7;
+    padding-left: 25px;
+}
+
+.puntuacioning-col, .game-info-col {
+    padding-left: 0;
+}
+
+.puntuacioning, .game-info {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.ranking-col {
+  background-color: #00050A;
+}
+
+.ranking-title {
+  padding-top: 5px;
+}
+
+.align-right {
+  float: right;
 }
