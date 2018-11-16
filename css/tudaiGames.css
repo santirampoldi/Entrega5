@@ -178,7 +178,7 @@ p.title-ultimos-jugados, p.title-juegos-recomendados{
   padding: 0px;
 }
 
-a .card-img-top {
+.juegos .img-container .card-img-top {
  height: 116px; 
 }
 
@@ -192,4 +192,9 @@ a .card-img-top {
 
 .jugados-recomendados img{
   height: 50px;
+}
+
+.card-body{
+  padding: 0.4rem;
+  text-align: center;
 }
