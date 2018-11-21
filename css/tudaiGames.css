@@ -364,6 +364,15 @@ p.title-ultimos-jugados, p.title-juegos-recomendados {
   margin-bottom: -25px;
 }
 
+.card-img-top.img-game{
+  width: 100%;
+  height: 290px;
+}
+
+.game-page-title{
+  margin-top: 5px;
+  text-align: center;
+}
 
 
 /* Comienza el stilo del doble slider */
