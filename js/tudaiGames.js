@@ -12,6 +12,13 @@ document.addEventListener("DOMContentLoaded", function (event) {
     }
   });
 
+  $(".comments").on('click', '.heart', function (e) {
+    if($(this).hasClass('clickeado'))
+      $(this).removeClass('clickeado');
+    else
+      $(this).addClass('clickeado');
+  })
+
   createSticky($('header'), 8);
   createSticky($('.filtros-container'), 80);
   createSticky($('.filtros-utilizados'),80);
