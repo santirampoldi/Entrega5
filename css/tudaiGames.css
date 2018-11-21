@@ -77,7 +77,7 @@ label h2 {
 }
 
 .filtros-container {
-  height: 550px;
+  height: 590px;
   background-color: #133B61;
   margin: 0 18px 0 10px;
   font-size: 1.2em;
@@ -88,18 +88,19 @@ label h2 {
   top: 70px;
   z-index:10;  
   background-color: #133B61;
-  height: 550px;
+  height: 590px;
   width: 165px;
   margin: 0 18px 0 10px;
   font-size: 1.2em;
 }
 
 .filter-body {
-  width: 76%;
+  width: 75%;
+  margin-bottom: -20px;
 }
 
 .filtrar-por {
-  height: 35%;
+  height: 32%;
 }
 
 .ultimos-jugados, .recomendados {
@@ -214,7 +215,7 @@ p.title-ultimos-jugados, p.title-juegos-recomendados {
 .jugados-recomendados {
   margin-top: 15px;
   display: inline-block;
-  margin: 15px 20px 0 25px;
+  margin: 15px 20px 0 38px;
   width: 10%;
   text-align: center;
 }
@@ -251,14 +252,21 @@ p.title-ultimos-jugados, p.title-juegos-recomendados {
 .filtros-orden {
   width: 100%;
   font-size: .7em;
+  margin-bottom: 7px;
+}
+
+.filtros-orden a{
+  color: white;
 }
 
 .filtro-avanzado {
   height: 50%;
+  margin-top: 15px;
 }
 
 .filter-body .filter-title {
   height: 40px;
+  margin-bottom: -15px;
 }
 
 /* .filtro-avanzado .filter-body {
@@ -326,9 +334,14 @@ p.title-ultimos-jugados, p.title-juegos-recomendados {
   float: right;
 }
 
-.filtros-utilizados, .ultimos-jugados, .recomendados {
+.ultimos-jugados, .recomendados {
   width: 91.7%;
   padding: 2px 15px;
+}
+
+.filtros-utilizados{
+  width: 91.7%;
+  padding: 8px 15px;
 }
 
 .game-tag {
@@ -338,3 +351,53 @@ p.title-ultimos-jugados, p.title-juegos-recomendados {
 .img-container {
   padding: 10px 0;
 }
+
+.checkbox-category tr td{
+  font-size: .8rem;
+}
+
+.checkbox-category{
+  margin-left: 30px;
+}
+
+.filter-title{
+  margin-bottom: -25px;
+}
+
+
+
+/* Comienza el stilo del doble slider */
+
+.price-slider { 
+  position: relative; 
+  width: 75%; 
+  margin: 0 auto 20px; 
+  height: 35px; 
+  text-align: center; 
+} 
+
+.price-slider input { 
+  pointer-events: none; 
+  position: absolute; 
+  left: 0; 
+  top: 15px; 
+  width: 100%; 
+  outline: none; 
+  height: 18px; 
+  margin: 0; 
+  padding: 0; 
+  border-radius: 8px; 
+} 
+
+.price-slider input::-webkit-slider-thumb { 
+  pointer-events: all; 
+  position: relative; 
+  z-index: 1; 
+  outline: 0; 
+  -webkit-appearance: none; 
+  height: 24px; 
+  width: 24px; 
+  border-radius: 12px; 
+  background-color: white; 
+  border: 2px solid black; 
+} 
