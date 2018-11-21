@@ -323,7 +323,7 @@ p.title-ultimos-jugados, p.title-juegos-recomendados {
 }
 
 .ranking-col {
-  background-color: #00050A;
+  background-color: #133B61;;
 }
 
 .ranking-title {
@@ -346,6 +346,9 @@ p.title-ultimos-jugados, p.title-juegos-recomendados {
 
 .game-tag {
   position: absolute;
+  padding: 5px;
+  border-bottom-right-radius: 25px 15px;
+  /* 30px 20px; */
 }
 
 .img-container {
@@ -374,7 +377,54 @@ p.title-ultimos-jugados, p.title-juegos-recomendados {
   text-align: center;
 }
 
+.game-page-play{
+  margin-bottom: 1rem;
+}
 
+.tag-accion{
+  background-color: orangered;
+}
+
+.tag-aventura{
+  background-color: blue;
+}
+
+.tag-carreras{
+  background-color: black;
+}
+
+.tag-deporte{
+  background-color: green;
+}
+
+.tag-estrategia{
+  background-color: rgba(211, 207, 4, 0.863);
+}
+
+.tag-ingenio{
+  background-color: rgb(1, 131, 131);
+}
+
+.tag-multijugador{
+  background-color: purple;
+}
+
+.tag-puzzle{
+  background-color: lightslategray;
+}
+
+.tag-tiros{
+  background-color: red;
+}
+
+.seccion-comentarios {
+  background-color: #133B61;
+  padding: 6px;
+}
+
+.seccion-comentarios .card-body{
+  text-align: left;
+}
 /* Comienza el stilo del doble slider */
 
 .price-slider { 
