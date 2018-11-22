@@ -18,7 +18,7 @@ function mostrarDatos(json) {
     html += '<div class="row"><div class="col-1"><div class="thumbnail">';
     html += '<img class="img-fluid user-photo" src="https://ssl.gstatic.com/accounts/ui/avatar_2x.png"></div></div>';
     html += '<div class="col-11"><div class="card"><div class="card-header">';
-    html += '<strong>'+json[i].email+'</strong> <span class="text-muted">commented 5 days ago</span></div></div><div id="'+json[i].id+'" class="heart"></div>'
+    html += '<strong>' + json[i].email + '</strong> <span class="text-muted">commented 5 days ago</span></div></div><div id="' + json[i].id +'" class="heart"></div>'
     html += '<div class="card-body">' +json[i].body+ '</div></div></div></div></div>';
 
 
