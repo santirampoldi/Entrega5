@@ -321,8 +321,13 @@ p.title-ultimos-jugados, p.title-juegos-recomendados {
     border-bottom-right-radius: 15px;
 }
 
+.game-screenshots {
+  margin-top: 30px; /*Ubicacion del carousel de screenshots*/
+}
+
 .ranking-col {
-  background-color: #133B61;;
+  background-color: #133B61;
+  height: 700px;
 }
 
 .ranking-title {
@@ -372,12 +377,20 @@ p.title-ultimos-jugados, p.title-juegos-recomendados {
 }
 
 .game-page-title{
-  margin-top: 5px;
-  text-align: center;
+  margin-bottom: 40px;
 }
 
 .game-page-play{
   margin-bottom: 1rem;
+}
+
+.game-page-description p {
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+.info-container {
+  margin-bottom: 25px;
 }
 
 .tag-accion{

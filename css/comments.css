@@ -61,8 +61,8 @@
     width: 80px;
     height: 80px;
     position: absolute;
-    left: 62%;
-    top: 18%;
+    left: 95%; /*110*/
+    top: 20%;  /*50*/
     transform: translate(-50%, -50%);
     background: url(../img/heart.png) no-repeat;
     background-position: 0 0;
@@ -73,6 +73,10 @@
     background-position: -2240px 0;
     transition: background 1s steps(28);
     animation: fave-heart 1s steps(28);
+  }
+
+  .heart:hover {
+  background-position:right;
   }
 
   @keyframes fave-heart {
