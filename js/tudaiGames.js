@@ -13,10 +13,16 @@ document.addEventListener("DOMContentLoaded", function (event) {
   });
 
   $(".comments").on('click', '.heart', function (e) {
-    if($(this).hasClass('clickeado'))
+    if($(this).hasClass('clickeado')) {
       $(this).removeClass('clickeado');
-    else
+      /*var number = parseInt($(this.id).text());
+      console.log(number);*/
+    }
+    else {
       $(this).addClass('clickeado');
+      /*var number = parseInt($(this.id).text());
+      console.log(number);*/
+    }
   })
 
   createSticky($('header'), 8);

@@ -11,8 +11,9 @@ header {
 }
 
 .container {
-  max-width: 87%;
+  max-width: 100%;
   padding: 0;
+  margin: 0 0 0 5px;
 }
 
 header.fixed{
@@ -103,13 +104,6 @@ label h2 {
   height: 32%;
 }
 
-.ultimos-jugados, .recomendados {
-  background-color: #133B61;
-  height: 100px;
-  width: 90%;
-  margin-bottom: 20px;
-}
-
 .filtros-utilizados {
   background-color: #133B61;
   height: 40px;
@@ -134,9 +128,8 @@ label h2 {
 
 .juegos {
   background-color: #133B61;
-  height: 290px;
-  width: 224px;
-  margin: 20px 40px 20px 0;
+  height: 260px;
+  margin: 10px 40px 20px 0;
 }
 
 .juegos h3, .card-title {
@@ -160,6 +153,7 @@ label h2 {
 .sibling-fade {
   width: 94.5%;
   visibility: hidden;
+  margin-bottom: 25px;
 }
 
 .sibling-fade > * {
@@ -201,7 +195,7 @@ label h2 {
 }
 
 p.title-ultimos-jugados, p.title-juegos-recomendados {
-  margin-bottom: -15px;
+  margin-bottom: 0;
 }
 
 .filtros-container .card-body {
@@ -213,15 +207,20 @@ p.title-ultimos-jugados, p.title-juegos-recomendados {
 }
 
 .jugados-recomendados {
-  margin-top: 15px;
   display: inline-block;
-  margin: 15px 20px 0 38px;
+  margin: 5px 20px 0px 38px;
   width: 10%;
   text-align: center;
 }
 
 .jugados-recomendados img {
   height: 50px;
+}
+
+.jugados-recomendados p {
+  margin-bottom: 0;
+  width: 120%;
+  text-align: left;
 }
 
 .card-body {
@@ -283,6 +282,10 @@ p.title-ultimos-jugados, p.title-juegos-recomendados {
     border-color: #133B61;
 }
 
+.nav-tabs, .tab-content, .ranking-title {
+  margin: 0 8% 0 8%;
+}
+
 .nav-tabs .nav-link:hover {
     color: #B7B7B7;
     border-color: #0E1A36;
@@ -322,16 +325,22 @@ p.title-ultimos-jugados, p.title-juegos-recomendados {
 }
 
 .game-screenshots {
+  width: 40%;
   margin-top: 30px; /*Ubicacion del carousel de screenshots*/
+}
+
+.carousel {
+  width: 100%;
 }
 
 .ranking-col {
   background-color: #133B61;
   height: 700px;
+  width: 18%;
 }
 
 .ranking-title {
-  padding-top: 5px;
+  padding: 5px 0;
 }
 
 .align-right {
@@ -339,6 +348,8 @@ p.title-ultimos-jugados, p.title-juegos-recomendados {
 }
 
 .ultimos-jugados, .recomendados {
+  background-color: #133B61;
+  margin-bottom: 10px;
   width: 91.7%;
   padding: 2px 15px;
 }
@@ -463,4 +474,8 @@ p.title-ultimos-jugados, p.title-juegos-recomendados {
   border-radius: 12px; 
   background-color: white; 
   border: 2px solid black; 
-} 
+}
+
+.probando {
+  visibility: hidden;
+}
